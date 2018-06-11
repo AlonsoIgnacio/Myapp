@@ -16,6 +16,7 @@ import { ContactPage } from '../contact/contact';
 })
 export class NacpagePage {
 
+
   Lista1: Array<any> = [
     {
       titulo: "Perro",
@@ -24,10 +25,15 @@ export class NacpagePage {
     {
       titulo: "Gato",
       color: "#9999"
+    },
+    {
+      titulo: "colornacho",
+      color: "#colornacho"
     }
   ]
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
   }
 
   otrapaginas()

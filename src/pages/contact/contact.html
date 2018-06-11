@@ -7,11 +7,13 @@
 </ion-header>
 
 <ion-content>
+
   <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+      <button ion-item *ngFor="let item2 of MILISTA" (click)="openNavDetailsPage(item2)" icon-start>
+        <ion-icon [name]="'logo-' + item2.icon" [ngStyle]="{'color': item2.color}" item-start></ion-icon>
+        {{ item2.title }}
+      </button>
+    </ion-list>
+
+
 </ion-content>

@@ -22,16 +22,8 @@
 
     <ion-list >
 
-      <button ion-item *ngFor="let item of Lista1">
-        <ion-icon name="cart" item-start  [ngStyle]="{'color': item.color}" (click)="otrapaginas()"></ion-icon>
+      <button ion-item *ngFor="let item of Lista1"  (click)="otrapaginas()">
+        <ion-icon name="cart" item-start  [ngStyle]="{'color': item.color}"></ion-icon>
         {{ item.titulo }}
       </button>
-
-
     </ion-list>
-  </ion-card>
-
-
-
-
-</ion-content>
