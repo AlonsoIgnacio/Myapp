@@ -8,6 +8,7 @@ import { PruebaPage } from '../prueba/prueba';
 export class ContactPage {
 
   MILISTA = [];
+  
 
   constructor(public navCtrl: NavController) {
 
@@ -71,7 +72,7 @@ export class ContactPage {
         ]
   }
   openNavDetailsPage(item2) {
-     this.navCtrl.push(PruebaPage, { item2: item2 });
+     this.navCtrl.push(PruebaPage, { itememem: item2 });
    }
 
 

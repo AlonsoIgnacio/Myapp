@@ -17,7 +17,7 @@ export class PruebaPage {
 culosucio;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
 
-    this.culosucio = navParams.data.item2;
+    this.culosucio = navParams.data.itememem;
   }
 
   ionViewDidLoad() {

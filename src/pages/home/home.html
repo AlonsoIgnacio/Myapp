@@ -25,7 +25,7 @@
 <button ion-button color="light">Light</button>
 <button ion-button>Default</button>
 <button ion-button color="secondary">Secondary</button>
-<button ion-button color="danger" (click)="alertaprro()">Alerta</button>
+<button ion-button color="danger"*ngFor="let test of testlista" (click)="alertaprro(test)">Alerta</button>
 <button ion-button color="dark">Dark</button>
 
 <button ion-button color="colornacho" (click)="otrapagina()" icon-right >
